@@ -1,0 +1,151 @@
+/* Palette:
+https://coolors.co/72267c-ffffff-fca63d-b8007c-ef7cb6 */
+/* 
+	Plum:		 	#72267c
+	White: 		#fff
+	Gold: 		#fca63d
+	Hot Pink: #b8007c
+	Pink: 		#ef7cb6
+	Black:    #000
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Work Sans', sans-serif;
+}
+
+/* Navigation */
+.header {
+	position: sticky;
+	top: 0;
+	height: 60px;
+	z-index: 2;
+}
+
+.header-color {
+	background-color: #72267c;
+}
+
+.logo {
+	float: left;
+	height: 50px;
+}
+
+.nav-item {
+	display: inline-block;
+	margin: 20px;
+}
+
+.nav-link {
+	text-decoration: none;
+	padding: 0;
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.nav-link-color {
+	color: #fff;
+}
+
+/* .sub-nav {
+	float: left;
+	overflow: hidden;
+}
+
+.sub-nav-btn {
+	font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  margin: 0;
+}
+
+.sub-nav-content {
+	display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+.sub-nav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.sub-nav-link-color {
+	color: purple;
+	background-color: orange;
+} */
+
+/* Footer */
+.footer {
+	background-color: #72267c;
+}
+
+.footer-text {
+	font-size: 16px;
+	color: #fff;
+}
+
+/* Text */
+.hero-title {
+	font-family: 'Lora', 'Georgia', 'Times New Roman', Times, serif;
+	font-size: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+.image-credit {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-size: 10px;
+	color: #fff;
+}
+
+/* Images */
+.hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/weaving.webp");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 400px;
+	position: relative;
+	z-index: 1;
+}
+
+/* Boxes */
+/* .box-white {
+	background-color: #fff;
+} */
+
+/* Positioning */
+/* .float-left {
+	float: left;
+} */
+
+.center {
+	text-align: center;
+}
+
+/* Facebook Icon*/
+.fa-square-facebook {
+	text-decoration: none;
+	background: #72267c;
+	color: #fff;
+}
+
+.fa-brands:hover {
+	opacity: 0.7;
+}

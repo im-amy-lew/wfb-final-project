@@ -1,0 +1,46 @@
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+input,
+textarea,
+select,
+button {
+  width: 600px;
+}
+
+button {
+  padding: 5px;
+  font-weight: 800;
+  color: var(--accent-2);
+  border: 2px solid var(--accent-2);
+  border-radius: 5px;
+  background: none;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  outline: none;
+  background: var(--accent-2);
+  color: var(--primary-1);
+}
+
+.form-center {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.form-field {
+  margin-bottom: 8px;
+}
+
+.page-divider {
+	border: 1px dotted var(--accent-4);
+	margin: 20px auto;
+  width: 630px;
+}

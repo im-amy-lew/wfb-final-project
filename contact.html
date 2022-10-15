@@ -7,15 +7,19 @@
   <meta name="description" content="The Sacramento Weavers' and Spinners' Guild's purpose is to encourage growth in the arts of weaving, spinning, and dyeing, by means of interchange of ideas, research, and contact with experts in the field.">
   <meta name="keywords" content="arts, crafts, dyeing, dyer, fiber, guild, sacramento, spinner, spinning, weaver, weaving">
   <meta name="author" content="Amy Lew">
-  <title>Sacramento Weavers' and Spinners' Guild | SWSG</title>
+  <title>Sacramento Weavers' and Spinners' Guild | SWSG | Contact Us</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Work+Sans:wght@400&display=swap">
 	<script src="https://kit.fontawesome.com/c5482756ba.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="./css/contact.css">
 </head>
+
+
 <body>
-  <header class="header header-color">
+
+  <header class="header">
     <nav>
 			<div class="logo">
 				<a href="index.html"><img src="./img/icon-light.png" alt="Sacramento Weavers' and Spinners' Guild logo" height="60px"></a>
@@ -41,5 +45,67 @@
 			</div>
     </nav>
   </header>
-  <h1>Contact</h1>
+
+	<main class="margin-outer">
+
+		<h1 class="heading-1">Contact Us</h1>
+		<section class="center">
+			<p>
+				Have questions or comments about SWSG? Please send us a message!
+			</p>
+		</section>
+
+		<hr class="page-divider">
+
+		<form class="form-center">
+			<div class="form-field">
+				<label for="firstname-input">First Name</label><br>
+				<input id="firstname-input" type="text" required>
+			</div>
+			<div class="form-field">
+				<label for="lastname-input">Last Name</label><br>
+				<input id="lastname-input" type="text">
+			</div>
+			<div class="form-field">
+				<label for="email-input">Email</label><br>
+				<input id="email-input" type="email" required>
+			</div>
+			<div class="form-field">
+				<label for="phone-input">Phone Number</label><br>
+				<input id="phone-input" type="tel">
+			</div>
+			<div class="form-field">
+				<label for="subject-input">Subject</label><br>
+				<input id="subject-input" type="text" required>
+			</div>
+			<div class="form-field">
+				<label for="message-input">Message</label><br>
+				<textarea id="message-input" name="message-input" rows="20" maxlength="1000" required></textarea>
+			</div>
+			<div>
+				<button type="submit">Submit</button>
+			</div>
+		</form>
+
+	</main>
+
+	<footer class="footer">
+    <div class="footer-text center">
+      <address class="no-italics">
+        <a href="mailto:davisspinner@gmail.com" class="link-2">Email Us</a><br>
+				Sacramento Weavers' and Spinners' Guild<br>
+        Shepard Garden and Arts Center<br>
+        3330 McKinley Blvd.<br>
+        Sacramento, CA 95816
+      </address>
+      <p>
+        Copyright © 2022 Amy Lew
+      </p>
+      <a href="https://www.facebook.com/groups/124902324243589/" target="_blank">
+        <i class="fa-brands fa-square-facebook fa-2x"></i>
+		  </a>
+    </div>
+  </footer>
+
 </body>
+</html>
